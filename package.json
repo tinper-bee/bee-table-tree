@@ -1,6 +1,6 @@
 {
   "name": "bee-table-tree",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "TableTree ui component for react",
   "keywords": [
     "react",
@@ -37,11 +37,16 @@
     "tinper-bee-core": "latest",
     "babel-runtime": "^6.23.0"
   },
+  "peerDependencies": {
+    "react": "^15.3.0 || ^16.0",
+    "react-dom": "^15.3.0 || ^16.0",
+    "prop-types": "15.6.0"
+   },
   "devDependencies": {
     "bee-button": "latest",
     "bee-layout": "latest",
     "bee-panel": "latest",
-    "bee-table": "^0.2.3",
+    "bee-table": "latest",
     "chai": "^3.5.0",
     "console-polyfill": "~0.2.1",
     "enzyme": "^2.4.1",

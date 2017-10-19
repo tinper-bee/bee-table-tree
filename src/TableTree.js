@@ -1,5 +1,7 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import Table from 'bee-table';
+import PropTypes from 'prop-types';
+
 const propTypes = {
     columns:PropTypes.array.isRequired,
     data:PropTypes.array.isRequired
